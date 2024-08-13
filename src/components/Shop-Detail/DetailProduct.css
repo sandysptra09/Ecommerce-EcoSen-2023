@@ -1,0 +1,564 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container-detail-product {
+    padding: 4rem 6rem;
+    background: #ffffff;
+}
+
+.detail-product {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 100px;
+}
+
+.detail-product .buy-product {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.buy-product .detail-product-image {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 30px;
+}
+
+.detail-product-image .picture-detail {
+    width: 400px;
+    height: 400px;
+    border-radius: 15px;
+}
+
+.picture-detail .picture-detail-product {
+    width: 400px;
+    height: 400px;
+    border-radius: 15px;
+    background: #D0D1D2;
+    object-fit: cover;
+}
+
+.picture-detail .picture-tag-product {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: var(--Field, 8px);
+    position: relative;
+    bottom: 370px;
+    left: 320px;
+}
+
+.picture-tag-product .picture-tag-1 {
+    display: flex;
+    width: 30px;
+    height: 46px;
+    justify-content: flex-end;
+    align-items: flex-start;
+    border-radius: 3px;
+}
+
+.tag-detail {
+    display: flex;
+    padding: 8px;
+    align-items: flex-start;
+    gap: 4px;
+    background: #FF6069;
+}
+
+.tag-detail-2 {
+    display: flex;
+    padding: 6px;
+    align-items: flex-start;
+    gap: 4px;
+    background: #A4BC46;
+}
+
+.tag-text-dc,
+.tag-text-new {
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    color: #FFFFFF;
+    letter-spacing: 0.08px;
+}
+
+.picture-tag-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.picture-detail .small-picture-detail {
+    display: flex;
+    width: 705px;
+    justify-content: center;
+    align-items: center;
+    gap: var(--Field, 8px);
+}
+
+.small-picture-carousel {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    width: 400px;
+}
+
+.small-picture-carousel .small-carousel {
+    width: 85px;
+    height: 85px;
+    border-radius: 10px;
+    background: #D0D1D2;
+}
+
+.buy-product .detail-product-information {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.detail-product-information .name-detail-product {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--Field, 8px);
+}
+
+.name-detail-product .title-name-detail {
+    font-family: 'Jost', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    color: #272E32;
+    text-decoration: none;
+}
+
+.name-detail-product .left-title-product {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--Field, 8px);
+}
+
+.product-left-title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.product-left-title .detail-pcs {
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #7A7F83;
+}
+
+.review-detail-product {
+    display: flex;
+    align-items: center;
+    gap: 19px;
+}
+
+.review-customer,
+.sold-review {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--Field, 8px);
+}
+
+.total-customer,
+.sold-total {
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    color: #272E32;
+    letter-spacing: 0.08px;
+}
+
+.customer-reviews,
+.sold,
+.short-desc-product {
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #727272;
+    letter-spacing: 0.08px;
+}
+
+.short-desc-product {
+    width: 700px;
+}
+
+.product-spesifications {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.product-spesifications .title-spesifications {
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    color: #272E32;
+    letter-spacing: 0.03px;
+    text-decoration: none;
+}
+
+.product-spesifications .spec-list {
+    margin-left: 2rem;
+}
+
+.spec-list li {
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #61676A;
+    letter-spacing: 0.08px;
+}
+
+.in-stock {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.in-stock .title-in-stock {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    color: #06C270;
+    letter-spacing: 0.08px;
+}
+
+.price-selection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.title-price-selection,
+.caption-selection {
+    display: flex;
+    align-items: center;
+    gap: var(--Button, 12px);
+}
+
+.title-price-selection .title-selection {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.title-selection .price-normal {
+    font-family: 'Jost', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    color: #A4BC46;
+}
+
+.title-selection .price-dc {
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    color: #61676A;
+    text-decoration: line-through;
+    letter-spacing: 0.08px;
+}
+
+.caption-selection .free-delivery {
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    color: #7f9916;
+    letter-spacing: 0.08px;
+    
+}
+
+.options-selection {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.quantity-selection {
+    display: flex;
+    padding: 12px 12px;
+    align-items: center;
+    gap: 16px;
+    border-radius: 61px;
+    border: 1px solid;
+}
+
+.minus-option {
+    display: flex;
+    padding: var(--Field, 8px) 4px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    cursor: pointer;
+}
+
+.plus-option {
+    display: flex;
+    padding: 4px;
+    align-items: flex-start;
+    gap: 4px;
+    cursor: pointer;
+}
+
+.add-cart-selection {
+    cursor: pointer;
+    display: flex;
+    padding: 12px 12px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border: none;
+    border-radius: 56px;
+    background: var(--complementary-color-gradient-1, linear-gradient(270deg, #BFC831 1.04%, #A4BC46 100%));
+}
+
+.add-cart-selection .icon-cart-selection {
+    width: 20px;
+    height: 20px;
+}
+
+.add-cart-selection .text-cart-selection {
+    font-family: 'Jost', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    color: #FFFFFF;
+    letter-spacing: 0.08px;
+    text-transform: uppercase;
+}
+
+.icon-btn-selection {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--Button, 12px);
+}
+
+.icon-wishlist-selection {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.icon-share-selection {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    /* padding: 18.9px 18.225px 18.9px 17.55px; */
+    justify-content: center;
+    align-items: center;
+    background: #F5F5F5;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.icon-share-selection .share-selection {
+    width: 16px;
+    height: 16.2px;
+}
+
+.btn-view-more {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    background: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-view-more .title-view-more {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.title-view-more .view-more-text {
+    font-family: 'Jost', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    color: #A4BC46;
+    letter-spacing: 0.08px;
+}
+
+.icon-view-more {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    padding: 5.538px 5px;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+}
+
+.title-view-more .slash {
+    width: 82%;
+    height: 1px;
+    align-self: stretch;
+}
+
+.icon-view {
+    width: 12.923px;
+    height: 14px;
+    margin-right: 3rem;
+}
+
+.information-selection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.information-1,
+.information-2,
+.information-3,
+.information-4 {
+    display: flex;
+    align-items: flex-start;
+    gap: 6px;
+}
+
+.title-info {
+    color: #61676A;
+    font-family: 'Jost', sans-serif;
+    text-align: left;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.title-text {
+    font-family: 'Jost', sans-serif;
+    text-align: left;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    color: #272E32;
+    letter-spacing: 0.08px;
+}
+
+/* condition description or reviews */
+.description-reviews {
+    margin: 4rem 0;
+}
+
+.option-condition {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 10px;
+    box-shadow: 0px 1px 18px 0px rgba(0, 0, 0, 0.12);
+}
+
+.description-option {
+    display: flex;
+    padding: 8px 4px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    flex: 1 0 0;
+    border-radius: 5px 0 0 5px;
+    cursor: pointer;
+    
+    /* background: var(--complementary-color-gradient-1, linear-gradient(270deg, #BFC831 1.04%, #A4BC46 100%)); */
+    &:hover {
+        background: var(--complementary-color-gradient-1, linear-gradient(270deg, #BFC831 1.04%, #A4BC46 100%));
+    }
+}
+
+.description-option .title-desc-opt {
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    color: #A4BC46;
+    letter-spacing: 0.03px;
+    text-transform: uppercase;
+
+    &:hover {
+        color: #FFFFFF;
+    }
+}
+
+.reviews-option {
+    cursor: pointer;
+    display: flex;
+    padding: 8px 4px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    flex: 1 0 0;
+    border-radius: 0px 5px 5px 0;
+    background: var(--gray-scale-0, #FFF);
+
+    &:hover {
+        background: var(--complementary-color-gradient-1, linear-gradient(270deg, #BFC831 1.04%, #A4BC46 100%));
+    }
+}
+
+.reviews-option .title-rev-opt {
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    color: #A4BC46;
+    letter-spacing: 0.03px;
+    text-transform: uppercase;
+
+    &:hover {
+        color: #FFFFFF;
+    }
+}
+
+.hidden-loading {
+    display: none;
+}

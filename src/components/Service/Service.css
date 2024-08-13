@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.service {
+    width: auto;
+    height: 520px;
+    background-color: var(--primary-150, #A4BC46);
+    background-image: url("/assets/elements/bg-service.png");
+    background-position: top 0px right 5px;
+    background-size: 1600px;
+    
+}
+
+.service img {
+    width: 50px;
+    height: auto;
+    position: relative;
+}
+
+.content-service {
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-left: 130px;
+    gap: 70px;
+
+    /* padding: 4px 4px; */
+}
+
+.text-service {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    margin-top: 60px;
+}
+
+.title-service {
+    color: var(--background-elevation-24, #FFF);
+    font-family: "Lily Script One", sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+.desc-service {
+    width: 600px;
+    color: var(--primary-15, #FFF);
+    font-family: "Jost", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+    letter-spacing: 0.03px;
+}
+
+.button-service {
+    display: flex;
+    padding: 8px 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border: none;
+    border-radius: 56px;
+    background: var(--background-elevation-24, #FFF);
+    /* text */
+    color: var(--primary-150, #A4BC46);
+    font-family: "Jost", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.08px;
+    text-transform: uppercase;
+}
+
+.button-service img {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    padding: 5.538px 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.categories-service {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    margin-top: 45px;
+    /* align-items: center; */
+}
+
+.thetopline-service {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.topleft-service,
+.topright-services {
+    display: flex;
+    width: 120px;
+    height: 128px;
+    padding: 30px;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    border-radius: 15px;
+    background: var(--background-elevation-24, #FFF);
+}
+
+.topleft-service img,
+.topright-services img {
+    width: 70px;
+    height: 70px;
+}
+
+.texttl-service,
+.texttr-service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 2px; */
+}
+
+.texttl-service h6,
+.texttr-service h6 {
+    color: var(--primary-180, #A4BC46);
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; 
+    letter-spacing: 0.03px;
+}
+
+.texttl-service p,
+.texttr-service p {
+    width: 150px;
+    color: var(--gray-scale-50, #61676A);
+    text-align: center;
+    font-family: "Jost", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: 0.08px;
+}
+
+.thebottomline-service {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.bottomleft-service,
+.bottomright-service {
+    display: flex;
+    width: 120px;
+    height: 128px;
+    padding: 30px;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    border-radius: 15px;
+    background: var(--background-elevation-24, #FFF);
+    margin-top: 20px;
+}
+
+.bottomleft-service img,
+.bottomright-service img {
+    width: 70px;
+    height: 70px;
+    flex-shrink: 0;
+}
+
+.textbl-service,
+.textbr-service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 5px; */
+}
+
+.textbl-service h6,
+.textbr-service h6 {
+    color: var(--primary-180, #A4BC46);
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; 
+    letter-spacing: 0.03px;
+}
+
+.textbl-service p,
+.textbr-service p {
+    width: 150px;
+    color: var(--gray-scale-50, #61676A);
+    text-align: center;
+    font-family: "Jost", sans-serif;
+    font-size: 11.5px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.08px;
+}

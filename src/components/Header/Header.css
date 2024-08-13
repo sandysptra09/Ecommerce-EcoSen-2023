@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    padding-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    overflow-x: hidden;
+}
+
+/* Upper Bar */
+
+.upper-bar {
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.upper-bar-1 {
+    display: flex;
+    align-items: center;
+    gap: 249px;
+}
+
+.upper-bar-1 .search {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 28px;
+}
+
+.icon-search img {
+    width: 20px;
+    height: 20px;
+}
+
+
+.search .input {
+    display: flex;
+    /* width: 250px; */
+    padding: 16px;
+    justify-content: space-between;
+    align-items: center;
+
+    border-radius: 48px;
+    background: var(--background-elevation-16, #F5F5F5);
+}
+
+.input input {
+    border: none;
+    outline: none;
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    background: var(--background-elevation-16, #F5F5F5);
+
+}
+
+.content-icon {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.upper-bar-2 {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.my-cart .counter {
+    display: flex;
+    width: 14px;
+    height: 14px;
+    padding: 2px 4px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFBB13;
+    position: absolute;
+    top: 28px;
+    right: 290px;
+}
+
+.my-cart .icon-cart {
+    margin-top: 4px;
+}
+
+.counter .total-count {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+}
+
+
+/* Navigation Bar */
+.navigation-bar {
+    display: flex;
+    width: 1000px;
+    padding: 0px 183px;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: hidden;
+    background: var(--primary-150, #A4BC46);
+}
+
+.left-side {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    position: relative;
+    right: 75px;
+}
+
+.left-side .all-categories {
+    display: flex;
+    padding: 20px 30px;
+    align-items: center;
+    gap: 2px;
+    background: var(--primary-150, #A4BC46);
+
+    &:hover {
+        background: #FFBB13;
+    }
+
+}
+
+.all-categories .home {
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+    margin-top: 8px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.03px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.nav-shop,
+.nav-product,
+.nav-pages,
+.nav-blog {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+
+}
+
+.title-shop,
+.title-product,
+.title-pages,
+.title-blog,
+.title-faqs {
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.03px;
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+
+.dropdown {
+    margin-top: 8px;
+    margin-left: 2px;
+}
+
+.store-information {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    min-width: max-content;
+    margin-left: 4rem;
+}
+
+.store-information .address {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.text-information {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: -2px;
+}
+
+.text-information .info {
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: #FFFFFF;
+    letter-spacing: 0.035px;
+}
+
+.info-address,
+.info-contact {
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+    font-family: Jost;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    color: #FFFFFF;
+    letter-spacing: 0.08px;
+}
+
+.address .icon-information {
+    width: 32px;
+    height: 32px;
+}
+
+.store-information .contact {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.btn-auth-logout {
+    /* display: flex; */
+    padding: 4px 12px;
+    justify-content: center;
+    align-items: center;
+    /* gap: 2px; */
+    background: #FFBB13;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn-auth-logout .auth-logout-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn-user-login {
+    display: flex;
+    padding: 8px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    background: #FFBB13;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn-user-login .auth-login-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 70px;
+}
+
+/* search input */ 
+.search-results {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    border-radius: 4px;
+    max-height: 200px;
+    /* Atur ketinggian maksimum jika diperlukan */
+    overflow-y: auto;
+    /* Aktifkan gulir vertikal jika hasil melebihi ketinggian maksimum */
+}
+
+.search-results ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.search-results li {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-results li:hover {
+    background-color: #f0f0f0;
+}
+
+.search-results img {
+    width: 40px;
+    height: 40px;
+    margin-right: 8px;
+    border-radius: 4px;
+}
+
+.search-results p {
+    margin: 0;
+    font-family: 'Jost', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #333;
+}

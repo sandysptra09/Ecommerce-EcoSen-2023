@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container-new-arrival {
+    width: auto;
+    height: auto;
+    padding: 4rem 4rem;
+}
+
+.new-arrival {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.new-arrival-categories {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.new-arrival-categories .title {
+    font-family: 'Lily Script One';
+    color: var(--primary-180, #A4BC46);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+.categories-new {
+    display: flex;
+    align-items: flex-start;
+    gap: -1px;
+}
+
+.categories-new .all {
+    display: flex;
+    padding: var(--Button, 8px) 20px;
+    align-items: flex-start;
+    gap: 4px;
+
+    border-radius: 10px 0px 0px 10px;
+    background: var(--primary-150, #A4BC46);
+}
+
+.all .title-all {
+    font-family: 'Jost', sans-serif;
+    color: var(--gray-scale-0, #FFF);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.03px;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.vegetable,
+.fruit,
+.egg-milk {
+    display: flex;
+    padding: var(--Button, 8px) 20px;
+    align-items: flex-start;
+    gap: 4px;
+
+    border: 1px solid var(--background-elevation-02, #D6D6D6);
+    background: var(--background-elevation-24, #FFF);
+}
+
+.meatt {
+    display: flex;
+    padding: var(--Button, 8px) 20px;
+    align-items: flex-start;
+    gap: 4px;
+
+    border: 1px solid var(--background-elevation-02, #D6D6D6);
+    background: var(--background-elevation-24, #FFF);
+}
+
+.title-meatt,
+.title-vegetable,
+.title-fruit,
+.title-egg-milk {
+    font-family: 'Jost', sans-serif;
+    color: var(--gray-scale-50, #61676A);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0.03px;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.product-new-arrivals {
+    display: flex;
+    padding: 0 2rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.product-new-arrivals .product-first {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    /* justify-content: space-between; */
+    gap: 46.5px;
+}
+
+.all-product-card-shop {
+    width: 250px;
+    height: 380px;
+    border-radius: 15px;
+    border: 2px solid var(--background-elevation-16, #F5F5F5);
+    background: var(--gray-scale-0, #FFF);
+    position: relative;
+}
+
+.all-product-card-shop .img-all-product-card {
+    width: 250px;
+    height: 260px;
+    background-color: #D0D1D2;
+    border-radius: 10px 10px 0 0;
+}
+
+.all-product-card-shop .information-all-product-card {
+    display: inline-flex;
+    padding: 16px 0px 14px 20px;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 45px;
+}
+
+.left-side-information-all {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--Field, 8px);
+}
+
+.left-side-information-all .name-of-all-product {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.name-of-all-product .title-all-product {
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0.03px;
+    text-transform: capitalize;
+    color: #272E32;
+    text-decoration: none;
+    /* min-width: max-content; */
+    width: 144.5px;
+}
+
+.name-of-all-product .pcs-all-product {
+    font-family: 'Jost', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.035px;
+    color: #7A7F83;
+}
+
+.left-side-information-all .price-of-all-product {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.price-of-all-product .price-all-product {
+    font-family: 'Jost', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 8px;
+    color: #A4BC46;
+    text-decoration: none;
+}
+
+.price-of-all-product .discon-all-product {
+    font-family: 'Jost', sans-serif;
+    margin-top: 8px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: 0.08px;
+    text-decoration: line-through;
+    color: #61676A;
+}
+
+.information-all-product-card .add-all-cart {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    cursor: pointer;
+
+    border: none;
+    border-radius: 12px 0px 0px 12px;
+    background: var(--secondary-50, #FFBB13);
+}
+
+.add-all-cart .icon-add-all-cart {
+    width: 22px;
+    height: 22px;
+}
+
+.tag-all-product-card {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: var(--Field, 8px);
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-50%, 30%);
+}
+
+.tag-all-discount {
+    display: flex;
+    align-items: flex-start;
+    border-radius: 3px;
+
+}
+
+.tag-all-discount .title-all-discount {
+    font-family: 'Jost', sans-serif;
+    color: #FFFFFF;
+    display: flex;
+    padding: 6px;
+    align-items: flex-start;
+    gap: 4px;
+    background-color: #FF6069;
+}
+
+.tag-all-new {
+    display: flex;
+    align-items: flex-start;
+}
+
+.tag-all-new .title-all-new {
+    font-family: 'Jost', sans-serif;
+    color: #FFFFFF;
+    display: flex;
+    padding: 6px;
+    align-items: flex-start;
+    gap: 4px;
+    background-color: #A4BC46;
+    text-transform: uppercase;
+}
+
+
+/* Hover ketika user mengarahkan ke button add cart */
+.hover-add-cart {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.hover-add-cart .hover-next,
+.hover-wishlist,
+.hover-see {
+    border: none;
+    display: inline-flex;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.hover-next {
+    border-radius: 20px 0px 0px 0px;
+    background: var(--secondary-5, linear-gradient(0deg, rgba(255, 255, 255, 0.85) 0%, rgba(255, 255, 255, 0.85) 100%), #FFBB13);
+}
+
+.hover-wishlist {
+    background: var(--secondary-5, linear-gradient(0deg, rgba(255, 255, 255, 0.85) 0%, rgba(255, 255, 255, 0.85) 100%), #FFBB13);
+}
+
+.hover-see {
+    background: var(--secondary-5, linear-gradient(0deg, rgba(255, 255, 255, 0.85) 0%, rgba(255, 255, 255, 0.85) 100%), #FFBB13);
+}
+
+.icon-next,
+.icon-wishlist,
+.icon-see {
+    width: 22px;
+    height: 22px;
+}
+

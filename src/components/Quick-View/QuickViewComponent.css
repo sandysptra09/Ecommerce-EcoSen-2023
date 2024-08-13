@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt&family=Urbanist&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.quick-view {
+    width: 1200px;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    box-shadow: 0px 1px 18px 0px rgba(31, 32, 28, 0.12);
+    border-radius: 15px;
+}
+
+.quick-view-product {
+    display: inline-flex;
+    padding: 30px;
+    align-items: flex-start;
+    gap: 30px;
+    border-radius: 15px;
+    background: var(--gray-scale-0, #FFF);
+}
+
+.picture-product {
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
+    background: var(--background-elevation-24, #FFF);
+}
+
+.picture-product-qv {
+    width: 500px;
+    height: 500px;
+    flex-shrink: 0;
+    background: var(--gray-scale-10, #D0D1D2);
+    border-radius: 10px;
+}
+
+.tag-product-quickview {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: var(--Field, 8px);
+    position: relative;
+    left: 0px;
+    right: 0;
+    transform: translate( 980%, -680%);
+}
+
+.tag-diskon-product-qv {
+    display: flex;
+    width: 38px;
+    justify-content: flex-end;
+    align-items: flex-start;
+    border-radius: 3px;
+}
+
+.tag-diskon-qv {
+    display: flex;
+    padding: 8px;
+    align-items: flex-start;
+    gap: 4px;
+    background: var(--warning-50, #FF6069);
+    border-radius: 3px;
+}
+
+.tag-diskon-qv .diskon-qv {
+    color: var(--gray-scale-0, #FFF);
+    text-align: right;
+    font-family: "Jost", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+}
+
+.tag-new-product-qv {
+    display: flex;
+    align-items: flex-start;
+    border-radius: 3px;
+}
+
+.tag-new-qv {
+    display: flex;
+    padding: 8px;
+    align-items: flex-start;
+    gap: 4px;
+    background: var(--primary-150, #A4BC46);
+    border-radius: 3px;
+}
+
+.tag-new-qv .new-qv {
+    color: var(--gray-scale-0, #FFF);
+    text-align: right;
+    font-family: "Jost", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+}
+
+.product-information-quickview {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.name-product-quickview {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--Field, 8px);
+}
+
+.name-product-quickview .name-product-qv {
+    color: var(--gray-scale-70, #272E32);
+    font-family: "Jost", sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    text-decoration: none;
+}
+
+.leftside-product-qv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--Field, 8px);
+}
+
+.products-name-leftside-qv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.products-name-leftside-qv .pn-leftside-qv {
+    color: var(--gray-scale-40, #7A7F83);
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.review-product-quickview {
+    display: flex;
+    align-items: center;
+    gap: 19px;
+}
+
+.rv-qv {
+    display: flex;
+    gap: 3px;
+}
+
+.review-product-quickview .review1-qv {
+    color: var(--gray-scale-70, #272E32);
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.08px;
+    font-weight: 600;
+}
+
+.review-product-quickview .review2-qv {
+    color: var(--gray-scale-50, #61676A);
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.08px;
+}
+
+.review-product-quickview svg .stroke-review-qv {
+    width: 0px;
+    height: 16.5px;
+    stroke-width: 1px;
+    stroke: var(--gray-scale-50, #727272);
+}
+
+.review-sold-qv {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--Field, 6px);
+}
+
+.review-sold-qv .sold-qv {
+    color: var(--gray-scale-50, #727272);
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.08px;
+}
+
+.review-sold-qv .sold2-qv {
+    color: var(--gray-scale-70, #272E32);
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+    letter-spacing: 0.08px;
+    font-weight: 600;
+}
+
+.desc1-qv {
+    color: var(--gray-scale-50, #61676A);
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: 0.08px;
+    width: 605px;
+}
+
+.product-spec-qv {
+    width: 605px;
+    color: var(--gray-scale-70, #272E32);
+    font-family: "Jost", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; 
+    letter-spacing: 0.03px;
+}
+
+.ul-qv {
+    list-style-type: none;
+}
+
+.list-item-qv {
+    width: 705px;
+    color: var(--gray-scale-50, #61676A);
+    text-align: justify;
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.08px;
+}
+
+.list-item-qv::before {
+    content: '\2022';
+    margin-right: 8px;
+}
+
+.in-stock-qv {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.in-stock-qv .in-qv {
+    width: 24px;
+    height: 24px;
+}
+
+.in-stock-qv .text-in-qv {
+    color: var(--success-60, #06C270);
+    text-align: justify;
+    font-family: "Urbanist", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; 
+    letter-spacing: 0.08px;
+}
+
+.price-selection-qv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.price-quickview {
+    display: flex;
+    align-items: center;
+    gap: var(--Button, 12px);
+}
+
+.price-qv {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.price-qv .price1-qv {
+    color: var(--primary-150, #A4BC46);
+    font-family: "Jost", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px; 
+    text-decoration: none;
+}
+
+.price-qv .price2-qv {
+    color: var(--gray-scale-50, #61676A);
+    font-family: "Jost", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.08px;
+    text-decoration: line-through;
+}
+
+svg .stroke-price-qv {
+    width: 0px;
+    height: 20.5px;
+    stroke-width: 1px;
+    stroke: var(--gray-scale-40, #898989);
+}
+
+.caption-quickview {
+    display: flex;
+    align-items: center;
+    gap: var(--Field, 8px);
+}
+
+.caption-quickview .capt-qv {
+    color: var(--primary-180, #576a0d);
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+    letter-spacing: 0.08px;
+}
+
+.options-quickview {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.quantity-selection-qv {
+    display: flex;
+    padding: 12px 12px;
+    align-items: center;
+    gap: 16px;
+    border-radius: 61px;
+    border: 1px solid;
+}
+
+.minus-option-qv {
+    display: flex;
+    padding: var(--Field, 8px) 4px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    cursor: pointer;
+}
+
+.plus-option-qv {
+    display: flex;
+    padding: 4px;
+    align-items: flex-start;
+    gap: 4px;
+    cursor: pointer;
+}
+
+.add-cart-selection-qv {
+    cursor: pointer;
+    display: flex;
+    padding: 12px 12px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border: none;
+    border-radius: 56px;
+    background: var(--complementary-color-gradient-1, linear-gradient(270deg, #BFC831 1.04%, #A4BC46 100%));
+}
+
+.add-cart-selection-qv .icon-cart-selection-qv {
+    width: 20px;
+    height: 20px;
+}
+
+.add-cart-selection-qv .text-cart-selection-qv {
+    font-family: 'Jost', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    color: #FFFFFF;
+    letter-spacing: 0.08px;
+    text-transform: uppercase;
+}
+
+.icon-btn-selection-qv {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--Button, 12px);
+}
+
+.icon-wishlist-selection-qv {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.icon-share-selection-qv {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    /* padding: 18.9px 18.225px 18.9px 17.55px; */
+    justify-content: center;
+    align-items: center;
+    background: #F5F5F5;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.icon-share-selection-qv .share-selection-qv {
+    width: 16px;
+    height: 16.2px;
+}
+
+.link-qv{
+    color: var(--primary-150, #A4BC46);
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; 
+    letter-spacing: 0.08px;
+    text-transform: uppercase;
+}
+
+.link-qv svg {
+    width: 16px;
+    height: 16px;
+}

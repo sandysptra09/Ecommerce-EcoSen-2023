@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container-best-seller {
+    padding: 2rem 4rem;
+    background: var(--primary-15, linear-gradient(0deg, rgba(255, 255, 255, 0.90) 0%, rgba(255, 255, 255, 0.90) 100%), #A4BC46);
+
+}
+
+.best-seller {
+    display: flex;
+    padding: 50px 50px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.product-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16.589px;
+}
+
+.title-bs {
+    color: var(--primary-180, #A4BC46);
+    font-family: "Lily Script One", sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 219.821px;
+    letter-spacing: 1.4px;
+    min-width: max-content;
+}
+
+.foto-left {
+    width: 478px;
+    height: 311px;
+    border-radius: 15px;
+    background: var(--gray-scale-10, #D0D1D2);
+}
+
+.foto-left img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.in-bestseller {
+    width: 158px;
+    height: 140px;
+}
+
+.in1-bestseller {
+    width: 158px;
+    height: 84px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 2.316px solid var(--primary-150, #A4BC46);
+    z-index: 1;
+    position: absolute;
+    left: 660px;
+    top: 2500px;
+}
+
+.in2-bestseller {
+    display: inline-flex;
+    padding: 40px 9.266px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 9.266px;
+    border-radius: 10px;
+    background: var(--secondary-50, #FFBB13);
+    z-index: 2;
+    position: absolute;
+    top: 2470px;
+    left: 700px;
+}
+
+.in2-bestseller h2 {
+    transform: rotate(-90deg);
+    color: var(--gray-scale-0, #FFF);
+    font-family: "Lily Script One", sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 68px;
+    letter-spacing: -0.3px;
+    text-transform: capitalize;
+}
+
+.product-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    margin-left: 14rem;
+}
+
+.foto-right {
+    width: 360px;
+    height: 262px;
+    border-radius: 15px;
+    background: var(--gray-scale-10, #D0D1D2);
+}
+
+.img-ourproduct {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.sub-title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.sub-title h3 {
+    width: 462px;
+    height: 105px;
+    color: var(--primary-180, #A4BC46);
+    font-family: "Lily Script One", sans-serif;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 104px;
+    letter-spacing: -1.2px;
+}
+
+.sub-title h6 {
+    width: 360px;
+    color: var(--gray-scale-50, #61676A);
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+    letter-spacing: 0.03px;
+}
+
+.product-right button{
+    display: flex;
+    padding: 8px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-radius: 56px;
+    border: none;
+    background: var(--complementary-color-gradient-1, linear-gradient(270deg, #BFC831 1.04%, #A4BC46 100%));
+    color: var(--gray-scale-0, #FFF);
+    /* text */
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.08px;
+    text-transform: uppercase;
+}
+
+.button-img-bestseller {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    padding: 5.538px 5px;
+    justify-content: center;
+    align-items: center;
+}

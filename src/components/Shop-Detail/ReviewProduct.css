@@ -1,0 +1,469 @@
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.review-product {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.review-product .evaluate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--Field, 8px);
+}
+
+.evaluate .evaluate-filter {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.evaluate-filter .this-evaluate {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3px;
+}
+
+.this-evaluate .title-evaluate {
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    color: #A4BC46;
+    letter-spacing: 0.03px;
+}
+
+.this-evaluate .star-rating-evaluate {
+    display: flex;
+    width: 233px;
+    align-items: center;
+    gap: 7px;
+}
+
+.star-rating-evaluate .rating-icon-evaluate {
+    display: flex;
+    width: 120px;
+    height: 28px;
+    align-items: flex-start;
+    gap: 4px;
+    flex-shrink: 0;
+}
+
+.star-rating-evaluate .total-evaluate {
+    font-family: 'Jost', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    margin-bottom: 4px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #61676A;
+    letter-spacing: 0.08px;
+}
+
+.evaluate-filter .this-filter {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.this-filter .title-filter {
+    font-family: 'Jost', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    color: #61676A;
+    letter-spacing: 0.08px;
+}
+
+.this-filter .newest {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2px;
+    cursor: pointer;
+}
+
+.newest .title-newest {
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    color: #272E32;
+    letter-spacing: 0.08px;
+}
+
+.evaluate .divider {
+    width: 100%;
+}
+
+.review-product .comment-and-rate {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.comment-and-rate .comment-rate {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.comment-rate .customer-feedback-rate {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.customer-feedback-rate .date-review {
+    font-family: 'Jost', sans-serif;
+    text-align: right;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    color: #A4BC46;
+    letter-spacing: 0.08px;
+}
+
+.customer-feedback-rate .star-rating-review {
+    display: flex;
+    align-items: flex-start;
+    gap: 6px;
+}
+
+.customer-feedback-rate .date-review-product {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.date-review-product .date-month-year {
+    font-family: 'Jost', sans-serif;
+    text-align: right;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #61676A;
+    letter-spacing: 0.08px;
+}
+
+.date-review-product .total-classification {
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #61676A;
+    letter-spacing: 0.08px;
+}
+
+.customer-feedback-rate .title-review-product {
+    font-family: 'Jost', sans-serif;
+    text-align: right;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    color: #272E32;
+    letter-spacing: 0.08px;
+}
+
+.customer-feedback-rate .text-review-rate-product {
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #61676A;
+    letter-spacing: 0.08px;
+}
+
+.picture-rate {
+    display: flex;
+    align-items: flex-start;
+    gap: 36px;
+}
+
+.picture-rate .review-product-img {
+    width: 120px;
+    height: 130px;
+    border-radius: 15px;
+    background: #D0D1D2;
+}
+
+.reply-rate {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+.reply-rate .reply-like {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.reply-like .total-reply-like {
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #727272;
+    letter-spacing: 0.08px;
+}
+
+.reply-comments {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.reply-comments .total-rate-reply {
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    color: #727272;
+    letter-spacing: 0.08px;
+}
+
+.btn-rate-reply {
+    display: flex;
+    width: 48px;
+    height: 25px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: -2px;
+    cursor: pointer;
+}
+
+.btn-rate-reply .input-text-reply {
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    color: #727272;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+}
+
+.review-product .add-a-comment {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.add-a-comment .add-review-product {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.add-review-score {
+    display: flex;
+    gap: 20px;
+}
+
+.add-review-score h5 {
+    text-decoration: none;
+}
+
+.input-score-review {
+    padding: 8px 0;
+    background: #D0D1D2;
+    border-radius: 10px;
+    width: 50px;
+}
+
+.input-score-review .add-score {
+    border: none;
+    outline: none;
+    background: #D0D1D2;
+    padding: 4px 12px;
+    width: 20px;
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+
+}
+
+.add-review-product .title-add-review {
+    font-family: 'Lily Script One', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px;
+    color: #A4BC46;
+    text-transform: capitalize;
+}
+
+.add-review-product .text-add-review {
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #61676A;
+    letter-spacing: 0.08px;
+}
+
+.add-review-star {
+    display: flex;
+    width: 152px;
+    height: 27px;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.add-input-comments-review {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+}
+
+.add-name-review {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    align-self: stretch;
+}
+
+.add-your-email,
+.add-your-name {
+    display: flex;
+    padding: var(--Button, 12px) 16px;
+    align-items: flex-start;
+    gap: 16px;
+    flex: 1 0 0;
+
+    border-radius: 15px;
+    background: var(--background-elevation-16, #F5F5F5);
+}
+
+.add-your-title-review {
+    display: flex;
+    padding: var(--Button, 12px) 16px;
+    align-items: flex-start;
+    gap: 16px;
+    flex: 1 0 0;
+
+    border-radius: 15px;
+    background: var(--background-elevation-16, #F5F5F5);
+}
+
+.input-your-title-review {
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    /* margin-bottom: 4px; */
+    font-style: normal;
+    width: 100%;
+    font-weight: 400;
+    line-height: 24px;
+    color: #61676A;
+    letter-spacing: 0.08px;
+    text-decoration: none;
+    border: none;
+    background: var(--background-elevation-16, #F5F5F5);
+    outline: none;
+}
+
+.input-your-email,
+.input-your-name {
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    /* margin-bottom: 4px; */
+    font-style: normal;
+    width: 100%;
+    font-weight: 400;
+    line-height: 24px;
+    color: #61676A;
+    letter-spacing: 0.08px;
+    text-decoration: none;
+    border: none;
+    background: var(--background-elevation-16, #F5F5F5);
+    outline: none;
+}
+
+.add-comment-review {
+    display: flex;
+    height: 180px;
+    padding: var(--Button, 12px) 16px;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+    border-radius: 15px;
+    background: var(--background-elevation-16, #F5F5F5);
+}
+
+.input-your-comment {
+    font-family: 'Jost';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #61676A;
+    letter-spacing: 0.08px;
+    width: 100%;
+    height: 100%;
+    resize: none;
+    border: none;
+    outline: none;
+    background: var(--background-elevation-16, #F5F5F5);
+
+}
+
+.write-your-review {
+    display: flex;
+    padding: 12px 18px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-radius: 56px;
+    border: none;
+    cursor: pointer;
+    background: var(--complementary-color-gradient-1, linear-gradient(270deg, #BFC831 1.04%, #A4BC46 100%));
+}
+
+.write-your-review .title-write-review {
+    font-family: 'Jost', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    color: #FFFFFF;
+    letter-spacing: 0.08px;
+    text-transform: uppercase;
+}
+
+.reviewssss {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

@@ -1,0 +1,801 @@
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container-shopcomponent {
+    padding: 4rem 4rem;
+}
+
+.ShopComponent {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+
+.sidebar-shopcomponent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.categories-sidebar-shopcomponent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 15px;
+}
+
+.all-departemen-shopcomponent {
+    display: flex;
+    padding: 20px 120px 20px 20px;
+    align-items: flex-start;
+    gap: 4px;
+    background: var(--complementary-color-gradient-1, linear-gradient(270deg, #BFC831 1.04%, #A4BC46 100%));
+    border-radius: 15px 15px 0px 0px;
+}
+
+.all-departemen-shopcomponent img {
+    width: 26px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.lc-sc .icon-all-departments {
+    /* width: 22px; */
+    height: 24px;
+}
+
+.all-departemen-shopcomponent p {
+    color: var(--gray-scale-0, #FFF);
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+    letter-spacing: 0.08px;
+}
+
+.listcategories-shopcomponent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: -1px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.listcategories1-shopcomponent,
+.listcategories2-shopcomponent,
+.listcategories3-shopcomponent,
+.listcategories4-shopcomponent,
+.listcategories5-shopcomponent,
+.listcategories6-shopcomponent, 
+.listcategories7-shopcomponent {
+    display: flex;
+    width: 63px;
+    padding: 16px 192px 16px 20px;
+    align-items: flex-start;
+    gap: 4px;
+    border: 1px solid var(--background-elevation-02, #D6D6D6);
+    cursor: pointer;
+}
+
+.listcategories7-shopcomponent {
+    border-radius: 0px 0px 15px 15px;
+    /* border: 1px solid var(--background-elevation-02, #D6D6D6); */
+}
+
+.lc-sc {
+    display: flex;
+    gap: 15px;
+}
+
+.listcategories2-shopcomponent .lc-sc {
+    gap: 20px;
+}
+
+.lc-sc:hover {
+    stroke: #A4BC46;
+}
+
+.listcategories5-shopcomponent svg:hover {
+    fill: #A4BC46;
+}
+
+.listcategories1-shopcomponent p,
+.listcategories2-shopcomponent p,
+.listcategories3-shopcomponent p,
+.listcategories4-shopcomponent p,
+.listcategories6-shopcomponent p,
+.listcategories7-shopcomponent p {
+    color: var(--primary-150, #000);
+    font-family: "Jost", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+    letter-spacing: 0.08px;
+    min-width: max-content;
+}
+
+.listcategories5-shopcomponent p {
+    min-width: max-content;
+    color: var(--primary-150, #000);
+    font-family: "Jost", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+    letter-spacing: 0.08px;
+}
+
+.listcategories1-shopcomponent p:hover,
+.listcategories2-shopcomponent p:hover,
+.listcategories3-shopcomponent p:hover,
+.listcategories4-shopcomponent p:hover,
+.listcategories5-shopcomponent p:hover,
+.listcategories6-shopcomponent p:hover,
+.listcategories7-shopcomponent p:hover {
+    color: #A4BC46;
+}
+
+.filter-by-grup-shopcomponent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: -1px;
+}
+
+.fbg1-shopcomponent {
+    display: flex;
+    width: 63px;
+    padding: 16px 192px 16px 20px;
+    align-items: flex-start;
+    gap: 4px;
+    border-radius: 15px 15px 0px 0px;
+    border: 1px solid var(--background-elevation-02, #D6D6D6);
+}
+
+.fbg2-shopcomponent {
+    display: flex;
+    width: 63px;
+    padding: 16px 192px 16px 20px;
+    align-items: flex-start;
+    gap: 4px;
+    border: 1px solid var(--background-elevation-02, #D6D6D6);  
+}
+
+.fbg3-shopcomponent {
+    display: flex;
+    width: 63px;
+    padding: 16px 192px 16px 20px;
+    align-items: flex-start;
+    gap: 4px;
+    border-radius: 0px 0px 15px 15px;
+    border: 1px solid var(--background-elevation-02, #D6D6D6);
+}
+
+.fbg1-shopcomponent p,
+.fbg2-shopcomponent p,
+.fbg3-shopcomponent p {
+    color: var(--gray-scale-50, #61676A);
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+    letter-spacing: 0.08px;
+    cursor: pointer;
+    min-width: max-content;
+}
+
+.fbg1-shopcomponent p:hover,
+.fbg2-shopcomponent p:hover,
+.fbg3-shopcomponent p:hover {
+    color: #A4BC46;
+}
+
+.price-shopcomponent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.sidebar-price-shopcomponent {
+    display: flex;
+    width: 200px;
+    height: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading-price-shopcomponent {
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.heading-price-shopcomponent h6 {
+    width: 248px;
+    flex-shrink: 0;
+    color: var(--gray-scale-70, #272E32);
+    font-family: "Jost", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; 
+    letter-spacing: 0.03px;
+}
+
+.heading-price-shopcomponent svg,
+.head-latestproducts-shopcomponent svg {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.frame-price-shopcomponent {
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--Button, 12px);
+    border-radius: 15px;
+    border: 1px solid var(--background-elevation-02, #D6D6D6);
+}
+
+.fp-price-shopcomponent {
+    display: flex;
+    align-items: flex-start;
+    gap: 79px;
+}
+
+.btn-fp1-shopcomponent,
+.btn-fp2-shopcomponent {
+    display: flex;
+    padding: 4px 4px;
+    align-items: flex-start;
+    gap: 4px;
+    border-radius: 10px;
+    background: var(--gray-scale-0, #FFF);
+}
+
+.btn-fp1-shopcomponent p,
+.btn-fp2-shopcomponent p {
+    color: var(--gray-scale-50, #727272);
+    font-family: "Jost", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; 
+    letter-spacing: 0.035px;
+}
+
+.range-slider-shopcomponent {
+    width: 248px;
+    height: 18px;
+}
+
+.range-slider-shopcomponent input {
+    width: 238px;
+    height: 6px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    background: var(--background-elevation-03, linear-gradient(0deg, rgba(0, 0, 0, 0.14) 0%, rgba(0, 0, 0, 0.14) 100%), #FFF);
+    accent-color: #A4BC46;
+}
+
+.button-price-shopcomponent {
+    display: flex;
+    padding: 10px 25px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-radius: 56px;
+    border: none;
+    background: var(--complementary-color-gradient-1, linear-gradient(270deg, #BFC831 1.04%, #A4BC46 100%));
+}
+
+.button-price-shopcomponent p {
+    color: var(--gray-scale-0, #FFF);
+    font-family: "Jost", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; 
+    letter-spacing: 0.08px;
+    text-transform: uppercase;
+}
+
+.latestproducts-shopcomponent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.heading-latestproducts-shopcomponent {
+    display: flex;
+    width: 200px;
+    height: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-latestproducts-shopcomponent {
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.head-latestproducts-shopcomponent h6 {
+    width: 248px;
+    flex-shrink: 0;
+    color: var(--gray-scale-70, #272E32);
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.03px;
+}
+
+.latestproducts-shopcomponent {
+    display: flex;
+    width: 200px;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.product-content-sc {
+    display: flex;
+    gap: 10px;
+}
+
+.product-sc {
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: var(--gray-scale-10, #D0D1D2);
+}
+
+.content-sc {
+    display: flex;
+    height: 80px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.titleproduct-sc {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.tp-sc {
+    /* width: 218px; */
+    color: var(--gray-scale-70, #272E32);
+    font-family: "Jost", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; 
+    letter-spacing: 0.08px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.tp-sc:hover {
+    color: #A4BC46;
+}
+
+.pp-sc {
+    width: 218px;
+    color: var(--gray-scale-40, #7A7F83);
+    font-family: "Jost", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.035px;
+}
+
+.price-product-sc {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.price-product-sc h6 {
+    color: var(--primary-150, #A4BC46);
+    font-family: "Jost", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; 
+    letter-spacing: 0.03px;
+}
+
+.price-product-sc p {
+    color: var(--gray-scale-40, #898989);
+    font-family: "Jost", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.035px;
+    text-decoration: line-through;
+}
+
+.productfilter-shopcomponent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.tag-filter-shopcomponent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 30px;
+}
+
+.tf-filter-shopcomponent {
+    display: flex;
+    width: 850px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tf-display-shopcomponent {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.tf-display-shopcomponent p{
+    color: var(--gray-scale-70, #272E32);
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+    letter-spacing: 0.08px;
+}
+
+.tf-default-shopcomponent {
+    display: flex;
+    padding: 10px 14px;
+    align-items: flex-start;
+    gap: 4px;
+    border-radius: 5px;
+    border: 1px solid var(--background-elevation-02, #D6D6D6);
+    background: var(--gray-scale-0, #FFF);
+}
+
+.tf-default-shopcomponent p{
+    color: var(--gray-scale-70, #272E32);
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+    letter-spacing: 0.08px;
+}
+
+.garisdefault-shopcomponent {
+    display: flex;
+    padding: 6px 4px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.tf-tag-shopcomponent {
+    display: flex;
+    width: 550px;
+    padding: var(--Button, 12px) 297px var(--Button, 12px) 16px;
+    align-items: center;
+    gap: var(--Button, 12px);
+    border-radius: 15px;
+    background: var(--primary-15, linear-gradient(0deg, rgba(255, 255, 255, 0.90) 0%, rgba(255, 255, 255, 0.90) 100%), #A4BC46);
+}
+
+.tag-shopcomponent {
+    display: flex;
+    padding: 8px 14px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    border-radius: 5px;
+    background: var(--gray-scale-0, #FFF);
+}
+
+.remove-tag {
+    cursor: pointer;
+}
+
+.remove-tag:hover {
+    background-color: #D0D1D2;
+}
+
+.text-tag-shopcomponent {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    min-width: max-content;
+}
+
+.t1-tag {
+    color: var(--gray-scale-40, #7A7F83);
+    font-family: "Jost", sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.035px;
+}
+
+.t2-tag {
+    color: var(--gray-scale-70, #272E32);
+    font-family: "Jost",sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.035px;
+}
+
+.clear-tag-shopcomponent {
+    display: flex;
+    padding: var(--Field, 8px) 14px;
+    justify-content: center;
+    align-items: center;
+    gap: var(--Button, 12px);
+    border-radius: 5px;
+    background: var(--background-elevation-03, linear-gradient(0deg, rgba(0, 0, 0, 0.14) 0%, rgba(0, 0, 0, 0.14) 100%), #FFF);
+    cursor: pointer;
+}
+
+.textclear-tag-shopcomponent {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.textclear-tag-shopcomponent p {
+    color: var(--primary-95, #293042);
+    font-family: "Jost", sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+    letter-spacing: 0.035px;
+    min-width: max-content;
+}
+
+.all-product-shopcomponent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.rowproduct-shopcomponent {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-left: 20px;
+}
+
+.card-product-shopcomponent {
+    width: 250px;
+    height: 380px;
+    border-radius: 15px;
+    border: 2px solid var(--background-elevation-16, #F5F5F5);
+    background: var(--gray-scale-0, #FFF);
+}
+
+.img-sc-product {
+    width: 250px;
+    height: 260px;
+    flex-shrink: 0;
+    border-radius: 15px 15px 0px 0px;
+    background: #D0D1D2;
+    object-fit: cover;
+}
+
+.information-sc-product {
+    display: inline-flex;
+    padding: 16px 0px 0px 20px;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.left-side-information-sc {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.left-side-information-sc .name-of-sc-product {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.name-of-sc-product .title-sc-product {
+    font-family: 'Jost', sans-serif;
+    width: 144.1px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0.03px;
+    /* text-transform: capitalize; */
+    color: #272E32;
+    text-decoration: none;
+    min-width: max-content;
+}
+
+.name-of-sc-product .pcs-sc-product {
+    font-family: 'Jost', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.035px;
+    color: #7A7F83;
+}
+
+.left-side-information-sc .price-of-sc-product {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.price-of-sc-product .price-sc-product {
+    font-family: 'Jost', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 8px;
+    color: #A4BC46;
+    text-decoration: none;
+}
+
+.price-of-sc-product .discon-sc-product {
+    font-family: 'Jost', sans-serif;
+    margin-top: 8px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: 0.08px;
+    text-decoration: line-through;
+    color: #61676A;
+}
+
+.add-cart-sc {
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    cursor: pointer;
+    margin-right: 20px;
+    border: none;
+    border-radius: 12px 0px 0px 12px;
+    background: var(--secondary-50, #FFBB13);
+}
+
+.add-cart-sc .icon-add-cart-sc {
+    width: 22px;
+    height: 22px;
+}
+
+.tag-product-card-sc {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: var(--Field, 8px);
+    position: relative;
+    left: 0px;
+    right: 0;
+    transform: translate(530%, -530%);
+}
+
+.tag-discount-sc {
+    display: flex;
+    align-items: flex-start;
+    border-radius: 3px;
+}
+
+.tag-discount-sc .title-discount-sc {
+    font-family: 'Jost', sans-serif;
+    color: #FFFFFF;
+    display: flex;
+    padding: 6px;
+    align-items: flex-start;
+    gap: 4px;
+    background-color: #FF6069;
+}
+
+.tag-new-sc {
+    display: flex;
+    align-items: flex-start;
+}
+
+.tag-new-sc .title-new-sc {
+    font-family: 'Jost', sans-serif;
+    color: #FFFFFF;
+    display: flex;
+    padding: 6px;
+    align-items: flex-start;
+    gap: 4px;
+    background-color: #A4BC46;
+    text-transform: uppercase;
+}
+
+.pagination-shopcomponent {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.page-shopcomponent {
+    display: flex;
+    width: 20px;
+    height: 30px;
+    padding: 4px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    border-radius: 50%;
+    border: 1px solid var(--gray-scale-20, #B7B7B7);
+    background: var(--white, #FFF);
+    cursor: pointer;
+}
+
+.page-shopcomponent:hover {
+    color: #A4BC46;
+}
+
+.page-shopcomponent p {
+    color: var(--gray-scale-40, #898989);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Prompt", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px; 
+}
+
+.page-shopcomponent p svg {
+    width: 14px;
+    height: 10px;
+} 
+

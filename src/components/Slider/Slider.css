@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container-slider {
+    width: auto;
+    height: auto;
+    background: var(--primary-15, linear-gradient(0deg, rgba(255, 255, 255, 0.90) 0%, rgba(255, 255, 255, 0.90) 100%), #A4BC46);
+}
+
+.content-slider {
+    margin: 2rem 2rem;
+    padding: 2rem 2rem;
+}
+
+.slider {
+    display: flex;
+    flex-direction: row;
+}
+
+.content-slider {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 80px;
+}
+
+.information-slider {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.title-slider {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.title-slider h1 {
+    font-family: 'Jost', sans-serif;
+    color: var(--primary-180, #677c14);
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 104px;
+    letter-spacing: -1.44px;
+
+}
+
+.title-slider p {
+    width: 550px;
+    font-family: 'Jost', sans-serif;
+    color: var(--gray-scale-50, #61676A);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 140% */
+    letter-spacing: 0.03px;
+}
+
+.btn-slider {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.btn-slider button {
+    cursor: pointer;
+    display: flex;
+    padding: 16px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border: none;
+    border-radius: 56px;
+    background: var(--complementary-color-gradient-1, linear-gradient(270deg, #BFC831 1.04%, #A4BC46 100%));
+}
+
+.btn-slider button img {
+    width: 12.923px;
+    height: 14px;
+}
+
+.btn-slider button h3 {
+    font-family: 'Jost', sans-serif;
+    color: var(--gray-scale-0, #FFF);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.08px;
+}
+
+.video-btn {
+    display: flex;
+    align-items: center;
+    gap: var(--Field, 8px);
+    cursor: pointer;
+}
+
+.video-btn img {
+    width: 40px;
+    height: 40px;
+}
+
+.video-btn h3 {
+    font-family: 'Jost', sans-serif;
+    color: var(--gray-scale-70, #272E32);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    /* 120% */
+    letter-spacing: 0.03px;
+}
+
+.card-introduce {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.slider-card {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    gap: 7px;
+}
+
+.slider-card {
+    border-radius: 15px;
+    background: #FFFFFFE5;
+    box-shadow: 0px 1px 18px 0px rgba(31, 32, 28, 0.12);
+}
+
+.slider-card img {
+    width: 70px;
+    height: 70px;
+    padding: 4.667px 11.644px 3.505px 10.5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.title-card h3 {
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.08px;
+}
+
+.title-card p {
+    font-family: 'Jost', sans-serif;
+    color: var(--gray-scale-50, #61676A);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.035px;
+}
+
+.color-background {
+    width: 399px;
+    height: 710px;
+    flex-shrink: 0;
+    background: var(--secondary-50, #FFBB13);
+}

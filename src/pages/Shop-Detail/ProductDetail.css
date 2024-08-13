@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.intro-banner-detail-shop {
+    height: 240px;
+    background: #D0D1D2;
+}
+
+.title-banner-detail-shop {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    position: relative;
+    left: 520px;
+    top: 60px;
+}
+
+.title-banner-detail-shop .title-banner {
+    font-family: 'Jost', sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 68px;
+    color: #7c941c;
+    letter-spacing: -0.3px;
+}
+
+.breadcrumb {
+    display: flex;
+    gap: 4px;
+}
+
+.nav-detail-shop {
+    font-family: 'Jost', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #61676A;
+    letter-spacing: 0.08px;
+}
+
+.breadcrumb-detail-shop {
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bolder;
+    line-height: 24px;
+    letter-spacing: 0.08px;
+    color: #272E32;
+}
+

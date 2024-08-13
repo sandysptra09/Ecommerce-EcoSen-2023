@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container-customer-feedback {
+    padding: 6rem 8rem;
+    background: #ffff;
+}
+
+.customer-feedback {
+    display: flex;
+    width: 1050px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.picture-customer {
+    width: 400px;
+    height: 500px;
+    position: relative;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.picture-customer .background-picture {
+    width: 350px;
+    height: 350px;
+    flex-shrink: 0;
+    background: #FFBB13;
+    position: absolute;
+    top: 193px;
+    left: 25px;
+}
+
+.picture-customer .img-picture {
+    width: 400px;
+    height: 500px;
+    flex-shrink: 0;
+    background-color: #D0D1D2;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.content-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 109px;
+}
+
+.content-left .feedback-customers {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.feedback-customers .title-feedback {
+    font-family: 'Lily Script One', sans-serif;
+    color: #7c941c;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+.feedback-customers .customer-comments {
+    width: 600px;
+    height: 390px;
+    border-radius: 15px;
+}
+
+.comments {
+    width: 100%;
+    display: inline-flex;
+    padding: 35px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 21px;
+    border-radius: 15px 15px;
+    background: var(--background-elevation-16, #F5F5F5);
+}
+
+.comments .rating {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.rating .ratings {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+
+.ratings .name-customer {
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.03px;
+    text-transform: capitalize;
+    color: #272E32;
+    text-decoration: none;
+}
+
+.ratings .job-customer {
+    font-family: 'Jost', sans-serif;
+    color: #61676A;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.ratings .star {
+    display: flex;
+    align-items: flex-start;
+    gap: 2px;
+}
+
+.text-comment {
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.08px;
+}
+
+/* Swiper style */
+.swiper-pagination {
+  bottom: 50px; 
+  position: relative;
+}
+
+.swiper-pagination-bullet {
+  width: 15px;
+  height: 15px;
+  position: relative;
+  top: 12px;
+  right: -450px;
+  background-color: #A4BC46; /* Ganti dengan warna paginasi yang diinginkan */
+  margin: 0 5px; 
+}

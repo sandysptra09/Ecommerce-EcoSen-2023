@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container-famous-recipe {
+    padding: 2rem 4rem;
+    background: var(--primary-150, #A4BC46);
+    align-items: center;
+}
+
+.famous-recipe {
+    display: flex;
+    width: auto;
+    padding: 40px 40px;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.famous-recipe .title-list-food-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+}
+
+.title-list-food-card .title-famous-recipe {
+    font-family: 'Lily Script One', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.list-food-cards {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+.list-food-cards .food-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.food-cards {
+    width: 1100px;
+    cursor: grab;
+}
+
+.food-cards .food-category {
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    gap: 15px;
+
+    border-radius: 15px;
+    background: var(--primary-140, linear-gradient(0deg, rgba(255, 255, 255, 0.20) 0%, rgba(255, 255, 255, 0.20) 100%), #A4BC46);
+}
+
+.food-category .food-category-image {
+    width: 150px;
+    height: 110px;
+    background: var(--gray-scale-10, #D0D1D2);
+    border-radius: 10px;
+}
+
+.food-category .food-category-title {
+    width: 120px;
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.03px;
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.famous-recipe .food-list-product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.food-list-products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.food-list-products .food-set {
+    width: 1169px;
+    height: 510px;
+}
+
+.food-set .picture-food {
+    width: 490px;
+    height: 490px;
+    flex-shrink: 0;
+}
+
+.picture-food .product-big {
+    width: 490px;
+    height: 490px;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: inline-flex;
+}
+
+.product-big .vector-food {
+    width: 520px;
+    height: 520px;
+    position: absolute;
+    left: 65%;
+
+    /* border-radius: 250px; */
+
+}
+
+.product-big .image-food {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 15%;
+    left: 79%;
+
+    border-radius: 250px;
+    background: var(--gray-scale-10, #D0D1D2);
+}
+
+.tag-sale {
+    width: 126px;
+    height: 126px;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.tag-sale .icon-tag-sale {
+    fill: var(--attention-40, linear-gradient(0deg, rgba(255, 255, 255, 0.20) 0%, rgba(255, 255, 255, 0.20) 100%), #FC0);
+    stroke-width: 2px;
+    stroke: #FFF;
+    position: relative;
+    left: 520%;
+    top: 50%;
+}
+
+.tag-sale .food-price {
+    font-family: 'Jost', sans-serif;
+    width: 119px;
+    height: 37px;
+    flex-shrink: 0;
+    color: var(--gray-scale-70, #272E32);
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    text-decoration: none;
+    left: 523%;
+    top: 70%;
+    position: absolute;
+}
+
+.tag-sale .food-pcs {
+    width: 105.382px;
+    height: 36.655px;
+    flex-shrink: 0;
+    font-family: 'Jost', sans-serif;
+    color: var(--gray-scale-50, #61676A);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.03px;
+    left: 525%;
+    top: 100%;
+    position: absolute;
+}
+
+.food-card {
+    display: inline-flex;
+    padding: 2px 0px;
+    align-items: center;
+    gap: 8px;
+}
+
+.picture-btn-buy,
+.picture-btn-buy-2,
+.picture-btn-buy-3,
+.picture-btn-buy-4,
+.picture-btn-buy-5,
+.picture-btn-buy-6 {
+    width: 130px;
+    height: 150px;
+    position: relative;
+}
+
+.background,
+.background-2,
+.background-3,
+.background-4,
+.background-5,
+.background-6 {
+    width: 137px;
+    height: 137px;
+    border-radius: 200px;
+    background: var(--gray-scale-0, #FFF);
+    box-shadow: 0px 1px 18px 0px rgba(31, 32, 28, 0.12);
+}
+
+.background {
+    position: absolute;
+    bottom: 340%;
+    left: 650%;
+}
+
+.background-2 {
+    position: absolute;
+    bottom: 280%;
+    left: 650%;
+}
+
+.background-3 {
+    position: absolute;
+    bottom: 100%;
+    left: 437%;
+}
+
+.background-4 {
+    position: absolute;
+    bottom: 365%;
+    right: 165%;
+}
+
+.background-5 {
+    position: absolute;
+    bottom: 230%;
+    right: 380%;
+}
+
+.background-6 {
+    position: absolute;
+    bottom: 100%;
+    right: 375%;
+}
+
+.img-food-card {
+    position: absolute;
+    bottom: 349%;
+    left: 659%;
+}
+
+.img-food-card-2 {
+    position: absolute;
+    bottom: 289%;
+    left: 659%;
+}
+
+.img-food-card-3 {
+    position: relative;
+    bottom: 83%;
+    left: 446%;
+}
+
+.img-food-card-4 {
+    position: relative;
+    bottom: 349%;
+    right: 161%;
+}
+
+.img-food-card-5 {
+    position: relative;
+    bottom: 213%;
+    right: 376%;
+}
+
+.img-food-card-6 {
+    position: relative;
+    bottom: 83%;
+    right: 370%;
+}
+
+.img-food-card,
+.img-food-card-2,
+.img-food-card-3,
+.img-food-card-4,
+.img-food-card-5, 
+.img-food-card-6 {
+    width: 113px;
+    height: 112px;
+    flex-shrink: 0;
+    border-radius: 150px;
+    background-color: #D0D1D2;
+    object-fit: cover;
+}
+
+.btn-food-card,
+.btn-food-card-2,
+.btn-food-card-3,
+.btn-food-card-4,
+.btn-food-card-5, .btn-food-card-6 {
+    display: inline-flex;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border: none;
+    border-radius: 30px;
+    background-color: #FFBB13;
+}
+
+.btn-food-card {
+    position: absolute;
+    bottom: 330%;
+    left: 681%;
+    cursor: pointer;
+}
+
+.btn-food-card-2 {
+    position: relative;
+    bottom: 205%;
+    left: 681%;
+}
+
+.btn-food-card-3 {
+    position: relative;
+    bottom: 100%;
+    left: 469%;
+}
+
+.btn-food-card-4 {
+    position: relative;
+    bottom: 370%;
+    right: 139%;
+}
+
+.btn-food-card-5 {
+    position: relative;
+    bottom: 230%;
+    right: 355%;
+}
+
+.btn-food-card-6 {
+    position: relative;
+    bottom: 100%;
+    right: 350%;
+}
+
+.btn-buy-set {
+    margin-top: 1rem;
+    display: flex;
+    padding: 8px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    cursor: pointer;
+
+    border: none;
+    border-radius: 56px;
+    background: var(--gray-scale-0, #FFF);
+}
+
+.btn-buy-set .btn-icon {
+    width: 22px;
+    height: 22px;
+}
+
+.btn-buy-set .btn-title {
+    color: var(--primary-150, #A4BC46);
+    font-family: 'Jost', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    /* letter-spacing: 0.08px; */
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-bottom: 8px;
+}

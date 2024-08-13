@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: auto;
+    height: auto;
+}
+
+.container-forgetpassword,
+.container-login,
+.container-resetpassword {
+    margin: 1rem 2rem;
+    padding: 1rem 2rem;
+}
+
+.container-forgetpassword,
+.container-login,
+.container-resetpassword {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+.forgetpassword,
+.login,
+.resetpassword {
+    margin-left: 4rem;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+}
+
+.login,
+.resetpassword {
+    margin-top: 4rem;
+}
+
+.forgetpassword {
+    margin-top: 6rem;
+}
+
+.forgetpassword .auth-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--Button, 12px);
+}
+
+.login .auth-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--Button, 12px);
+}
+
+.resetpassword .auth-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--Button, 12px);
+}
+
+.arrow-back {
+    text-align: left;
+}
+
+.auth-title h1 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: var(--neutral-100, #2E2E2E);
+    text-align: center;
+    font-size: 26px;
+    font-style: normal;
+    font-style: 500;
+    line-height: 32px;
+}
+
+.auth-input p {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: var(--neutral-80, #666);
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.forgetpassword .auth-input {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 36px;
+}
+
+.label-input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.label-input label {
+    color: var(--neutral-90, #4D4D4D);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 1rem;
+}
+
+.label-input input {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.label-input input {
+    width: 100%;
+    height: auto;
+    padding: 8px;
+    border-radius: var(--Field, 8px);
+    border: 1px solid var(--neutral-50, #C2C2C2);
+    background: var(--neutral-10, #FFF);
+}
+
+.input-email,
+.input-password,
+.input-newpass,
+.input-confirm-newpass {
+    display: flex;
+    width: 443px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+h5 {
+    margin-top: 8px;
+    color: #1F3D7D;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-decoration-line: underline;
+}
+
+.to-forget-password, .to-login {
+    margin: 1rem 0;
+    color: #1F3D7D;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-decoration-line: underline;
+}
+
+.input-email h5 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.input-password h5 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.input-confirm-newpass h5 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.btn-forgetpassword,
+.btn-login,
+.btn-resetpassword {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    color: var(--neutral-30, #EDEDED);
+}
+
+.btn-forgetpassword,
+.btn-resetpassword {
+    padding: 14px 12px;
+    width: 104%;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--Button, 12px);
+    background: var(--neutral-50, #C2C2C2);
+}
+
+.btn-forgetpassword,
+.btn-resetpassword {
+    border-radius: var(--Button, 12px);
+    background: var(--complementary-color-gradient-1, linear-gradient(270deg, #BFC831 1.04%, #A4BC46 100%));
+
+}
+
+.btn-login {
+    padding: 14px 12px;
+    width: 104%;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--Button, 12px);
+    background: var(--neutral-50, #C2C2C2);
+
+    &:hover {
+        background: var(--complementary-color-gradient-1, linear-gradient(270deg, #BFC831 1.04%, #A4BC46 100%));
+    }
+}
+
+.box-2 {
+    width: 50%;
+}
+
+.box-2 .auth-image {
+    width: 600px;
+    height: 620px;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+.box-2 .auth-image img {
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+.swal-title {
+    font-family: 'Jost', sans-serif;
+    font-size: 48px;
+}
+
+.swal-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}

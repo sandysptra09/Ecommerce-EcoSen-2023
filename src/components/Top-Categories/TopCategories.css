@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.loading-page {
+    display: none;
+}
+
+.container-top-categories {
+    width: auto;
+    height: auto;
+    padding: 2rem 2rem;
+}
+
+.top-categories {
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-categories h3 {
+    color: var(--primary-180, #A4BC46);
+    font-family: "Lily Script One", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px; 
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.menu-tc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vegetables,
+.fruits,
+.meat,
+.poultry,
+.eggs-milk,
+.seafood {
+    display: flex;
+    padding: 20px 48px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.menu-tc h6 {
+    color: var(--gray-scale-90, #161A1E);
+    font-family: "Jost", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.03px;
+    text-align: center;
+}
+
+.menu-tc p {
+    color: var(--gray-scale-50, #61676A);
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+
+.text-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}

@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container-best-offer {
+    width: auto;
+    height: 904px;
+    position: relative;
+    background: var(--primary-15, linear-gradient(0deg, rgba(255, 255, 255, 0.90) 0%, rgba(255, 255, 255, 0.90) 100%), #A4BC46);
+}
+
+.background-left {
+    width: 420px;
+    height: 903px;
+    padding-top: 1.89px;
+    padding-bottom: 0.03px;
+    left: -37px;
+    top: 0px;
+    position: absolute;
+    background: #A4BC46;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+
+/* .background-left .vector {
+    width: 522px;
+    height: 901.078px;
+} */
+
+.patern-background .vector-1 {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+
+.patern-background .vector-2 {
+    position: absolute;
+    right: 10px;
+    top: 70px;
+}
+
+.patern-background .vector-3 {
+    position: absolute;
+    left: 120px;
+    top: 350px;
+}
+
+.patern-background .vector-4 {
+    position: absolute;
+    left: 50px;
+    top: 200px;
+}
+
+.patern-background .vector-7 {
+    position: absolute;
+    left: 50px;
+    top: 500px;
+}
+
+.patern-background .vector-8 {
+    position: absolute;
+    right: 10px;
+    top: 250px;
+}
+
+.patern-background .vector-9 {
+    position: absolute;
+    left: 300px;
+    top: 550px;
+}
+
+/* .patern-background .vector- {
+    position: absolute;
+} */
+
+.patern-background .vector-6 {
+    position: absolute;
+    bottom: 5px;
+    right: 50px;
+}
+
+.patern-background .frame {
+    position: absolute;
+    left: 10px;
+    bottom: 5px;
+}
+
+.background-right {
+    width: 349px;
+    height: 904px;
+    left: 1000px;
+    top: 0px;
+    position: absolute;
+    background: linear-gradient(0deg, #FFBB13 0%, #FFBB13 100%), #A4BC46;
+}
+
+.background-right h1 {
+    left: 280px;
+    top: 208px;
+    position: absolute;
+    transform: rotate(90deg);
+    transform-origin: 0 0;
+    color: rgba(255, 255, 255, 0.35);
+    font-size: 96px;
+    font-family: 'Lily Script One';
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 104px;
+    word-wrap: break-word;
+    text-wrap: nowrap;
+}
+
+.content {
+    left: 590px;
+    top: 0px;
+    position: absolute;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 85px;
+    display: inline-flex;
+}
+
+.best-offer-product {
+    display: flex;
+    padding: 50px 40px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    border-radius: 15px;
+    background: var(--gray-scale-0, #FFF);
+    box-shadow: 0px 1px 18px 0px rgba(31, 32, 28, 0.12);
+
+}
+
+.information-product {
+    display: flex;
+    flex-direction: column;
+    width: 470px;
+    align-items: flex-start;
+    gap: var(--Button, 12px);
+}
+
+.information-product h2 {
+    font-family: 'Jost', sans-serif;
+    color: var(--gray-scale-70, #272E32);
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.information-product p {
+    font-family: 'Jost', sans-serif;
+    width: 411px;
+    color: var(--gray-scale-50, #61676A);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 140% */
+    letter-spacing: 0.03px;
+}
+
+.information-product .price {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+}
+
+.price .prices {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.prices h2 {
+    font-family: 'Jost', sans-serif;
+    color: #A4BC46;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+}
+
+.prices h3 {
+    font-family: 'Jost', sans-serif;
+    color: var(--gray-scale-50, #61676A);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.08px;
+    text-decoration: line-through;
+}
+
+.price h4 {
+    font-family: 'Jost', sans-serif;
+    color: #7A7F83;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.035px;
+}
+
+.picture {
+    width: 400px;
+    height: 400px;
+    background-color: #D0D1D2;
+}
+
+.under {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.under .time-sale {
+    display: flex;
+    width: 400px;
+    padding: 16px 60px 16px 20px;
+    justify-content: space-between;
+    align-items: center;
+
+    border-radius: 40px;
+    background: var(--gray-scale-0, #FFF);
+    box-shadow: 0px 1px 18px 0px rgba(31, 32, 28, 0.12);
+}
+
+.under .time-sale img {
+    width: 54px;
+    height: 54px;
+}
+
+.sale {
+    display: flex;
+    align-items: center;
+    gap: 23px;
+}
+
+.sale .day,
+.hours,
+.min,
+.sec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sale h3 {
+    font-family: 'Jost', sans-serif;
+    color: #A4BC46;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.03px;
+}
+
+.sale h4 {
+    font-family: 'Jost', sans-serif;
+    color: #61676A;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.sale span {
+    font-family: 'Jost', sans-serif;
+    color: #A4BC46;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.03px;
+}
+
+.add-to-cart {
+    display: flex;
+    align-items: flex-end;
+    gap: 183px;
+}
+
+.add-to-cart button {
+    display: flex;
+    padding: 16px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    cursor: pointer;
+
+    border: none;
+    border-radius: 56px;
+    background: var(--complementary-color-gradient-1, linear-gradient(270deg, #BFC831 1.04%, #A4BC46 100%));
+}
+
+.add-to-cart button h3 {
+    font-family: 'Jost', sans-serif;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.08px;
+    text-transform: uppercase;
+}
+
+.add-to-cart .dots-slider {
+    display: flex;
+    align-items: center;
+    gap: var(--Button, 12px);
+}

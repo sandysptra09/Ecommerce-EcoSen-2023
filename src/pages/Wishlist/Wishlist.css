@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.intro-banner-wishlist {
+    height: 240px;
+    background: #D0D1D2;
+}
+
+.title-banner-wishlist {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    position: relative;
+    left: 570px;
+    top: 60px;
+}
+
+.title-banner-wishlist .title-banner {
+    font-family: 'Jost', sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 68px;
+    color: #7c941c;
+    letter-spacing: -0.3px;
+}
+
+.breadcrumb {
+    display: flex;
+    gap: 4px;
+}
+
+.nav-wishlist {
+    font-family: 'Jost', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #61676A;
+    letter-spacing: 0.08px;
+}
+
+.breadcrumb-wishlist {
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bolder;
+    line-height: 24px;
+    letter-spacing: 0.08px;
+    color: #272E32;
+}
+
+.container-my-wishlist {
+    padding: 4rem 8rem;
+    background-color: #FFFFFF;
+}
+
+.my-wishlist {
+    width: auto;
+    height: auto;
+    background: #FFFFFF;
+}
+
+.title-my-wishlist {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-my-wishlist .titles {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    color: #11142D;
+    letter-spacing: 0.24px;
+}
+
+.container-table-wishlist {
+    margin: 2rem 0;
+}
+
+.table-my-wishlist {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.head-table {
+    background: var(--complementary-color-gradient-1, linear-gradient(270deg, #BFC831 1.04%, #A4BC46 100%));
+}
+
+.title-table {
+    padding: 12px;
+    text-align: left;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    color: #FFFFFF;
+    letter-spacing: 0.12px;
+}
+
+.wishlist-product-img {
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    background: #E2E2EA;
+}
+
+.info-product {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.info-product .name-product-wishlist {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    color: #11142D;
+    letter-spacing: 0.12px;
+    text-decoration: none;
+}
+
+.product-info,
+.product-qty,
+.product-excerpt,
+.product-action {
+    padding: 12px;
+    text-align: left;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    color: #11142D;
+    letter-spacing: 0.12px;
+}
+
+.product-excerpt .excerpt {
+    width: 400px;
+    margin-bottom: 8px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    color: #11142D;
+    letter-spacing: 0.12px;
+    text-decoration: none;
+}
+
+.product-qty button {
+    cursor: pointer;
+    color: #11142D;
+    border: none;
+    padding: 5px 10px;
+    margin: 0 5px;
+
+    &:hover {
+        background-color: #A4BC46;
+    }
+}
+
+.product-action img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}

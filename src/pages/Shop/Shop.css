@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.intro-banner-shop {
+    height: 240px;
+    background: #D0D1D2;
+    /* background-image: url("/img-product/bannerecosen.webp");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    image-rendering: auto;
+    position: relative; */
+}
+
+/* .intro-banner-shop img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+} */
+
+
+
+.title-banner-shop {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    position: relative;
+    left: 600px;
+    top: 60px;
+}
+
+.title-banner-shop .title-banner {
+    color: var(--primary-180, #A4BC46);
+    font-family: "Jost", sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 68px;
+    letter-spacing: -0.3px;
+}
+
+.breadcrumb {
+    display: flex;
+    gap: 4px;
+}
+
+.nav-shop-home {
+    font-family: 'Jost', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #61676A;
+    letter-spacing: 0.08px;
+}
+
+.nav-shop-shop {
+    color: var(--gray-scale-70, #272E32);
+    font-family: 'Jost', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.08px;
+}
+

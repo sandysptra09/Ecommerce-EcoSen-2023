@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container-combosale {
+    padding: 4rem 4rem;
+    overflow-x: hidden;
+
+}
+
+.combo-sale {
+    display: flex;
+    width: auto;
+    height: 600px;
+    /* margin: auto; */
+    /* align-items: center; */
+    border-radius: 15px;
+    background: var(--secondary-5, linear-gradient(0deg, rgba(255, 255, 255, 0.85) 0%, rgba(255, 255, 255, 0.85) 100%), #FFBB13);
+    gap: 50px;
+}
+
+.picture-combo {
+    width: 450px;
+    height: 600px;
+    flex-shrink: 0;
+    background: var(--gray-scale-10, #D0D1D2);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.picture-combo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.product-set {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    margin-top: 40px;
+}
+
+.product-set h3 {
+    color: var(--primary-180, #A4BC46);
+    font-family: "Lily Script One", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px; 
+    text-transform: capitalize;
+}
+
+.price {
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.price h5 {
+    color: var(--gray-scale-70, #272E32);
+    font-family: "Jost", sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px; 
+    text-decoration: none;
+}
+
+.price-1 {
+    display: flex;
+    padding: 4px var(--Field, 8px);
+    align-items: flex-end;
+    gap: var(--Field, 8px);
+}
+
+.price-1 h3 {
+    width: 174px;
+    height: 48px;
+    color: var(--warning-50, #FF6069);
+    font-family: "Jost", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px; 
+}
+
+.price-1 p {
+    color: var(--gray-scale-50, #61676A);
+    font-family: "Jost", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 140% */
+    letter-spacing: 0.03px;
+    text-decoration: line-through ;
+}
+
+.product-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.product-card .product-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.product-card .product-right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    margin-left: 40px;
+}
+
+.product-combo {
+    display: flex;
+    padding: 4px;
+    width: 300px;
+    height: 85px;
+    align-items: center;
+    gap: 20px;
+    border-radius: 15px;
+    background: var(--background-elevation-24, #FFF);
+}
+
+.information-product {
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    gap: 10px;
+    /* margin-left: 30px; */
+}
+
+.information-product img {
+    width: 84px;
+    height: 84px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.product-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 2px;
+    /* margin-left: 100px; */
+}
+
+.product-name  .pn {
+    width: 200px;
+    color: var(--gray-scale-70, #272E32);
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; 
+    letter-spacing: 0.08px;
+}
+
+.product-name .pp {
+    color: var(--gray-scale-40, #7A7F83);
+    font-family: "Jost", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.035px;
+} 
+
+.price-product {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.price-product h6 {
+    color: var(--primary-150, #A4BC46);
+    font-family: "Jost", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; 
+    letter-spacing: 0.03px;
+}
+
+.price-product p {
+    color: var(--gray-scale-50, #61676A);
+    font-family: "Jost", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+    letter-spacing: 0.035px;
+    text-decoration: line-through;
+}
+
+.button {
+    display: flex;
+    align-items: flex-end;
+    gap: 450px;
+}
+
+.button button {
+    display: flex;
+    /* padding: 16px 30px; */
+    width: 150px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border: none;
+    border-radius: 56px;
+    background: var(--complementary-color-gradient-1, linear-gradient(270deg, #BFC831 1.04%, #A4BC46 100%));
+    /* text */
+    color: var(--gray-scale-0, #FFF);
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.08px;
+    text-transform: uppercase;
+}
+
+.button img{
+    width: 24px;
+    height: 24px;
+}
+
+.move-button {
+    display: flex;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.move-button  img {
+    width: 32px;
+    height: 32px;
+}

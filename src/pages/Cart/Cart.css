@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.intro-banner-cart {
+    height: 240px;
+    background: #D0D1D2;
+}
+
+.title-banner-cart {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    position: relative;
+    left: 570px;
+    top: 60px;
+}
+
+.title-banner-cart .title-banner {
+    font-family: 'Jost', sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 68px;
+    color: #7c941c;
+    letter-spacing: -0.3px;
+}
+
+.breadcrumb {
+    display: flex;
+    gap: 4px;
+}
+
+.nav-cart {
+    font-family: 'Jost', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #61676A;
+    letter-spacing: 0.08px;
+}
+
+.breadcrumb-cart {
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bolder;
+    line-height: 24px;
+    letter-spacing: 0.08px;
+    color: #272E32;
+}
+
+.container-my-cart {
+    padding: 4rem 8rem;
+    background-color: #FFFFFF;
+    /* max-width: max-content; */
+}
+
+.my-cart {
+    width: auto;
+    height: auto;
+    background: #FFFFFF;
+}
+
+.title-my-cart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-my-cart .titles {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    color: #11142D;
+    letter-spacing: 0.24px;
+}
+
+.step-bar-cart {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.step-bar-cart .step-cart-1 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    color: #11142D;
+    letter-spacing: 0.08px;
+}
+
+.step-cart-2,
+.step-cart-3 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    color: #9A9AB0;
+    letter-spacing: 0.08px;
+}
+
+.container-table-cart {
+    margin: 2rem 0;
+}
+
+.table-my-cart {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.head-table {
+    background: var(--complementary-color-gradient-1, linear-gradient(270deg, #BFC831 1.04%, #A4BC46 100%));
+}
+
+.title-table {
+    padding: 12px;
+    text-align: left;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    color: #FFFFFF;
+    letter-spacing: 0.12px;
+}
+
+.cart-product-img {
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    background: #E2E2EA;
+}
+
+.info-product {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.info-product .name-product-cart {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    color: #11142D;
+    letter-spacing: 0.12px;
+    text-decoration: none;
+}
+
+.product-info,
+.product-qty,
+.product-total,
+.product-action {
+    padding: 12px;
+    text-align: left;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    color: #11142D;
+    letter-spacing: 0.12px;
+}
+
+.product-total .price-total {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    color: #11142D;
+    letter-spacing: 0.12px;
+    text-decoration: none;
+}
+
+.product-qty button {
+    cursor: pointer;
+    color: #11142D;
+    border: none;
+    padding: 5px 10px;
+    margin: 0 5px;
+
+    &:hover {
+        background-color: #A4BC46;
+    }
+}
+
+.product-action img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.checkout {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.checkout .coupon {
+    width: 550px;
+    height: 300px;
+    background: #f8f4e4;
+    border-radius: 8px;
+}
+
+.coupon .text-coupon {
+    padding: 4rem 7rem;
+}
+
+.text-coupon {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.text-coupon .have-a-coupon {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    color: #11142D;
+    letter-spacing: 0.12px;
+    text-decoration: none;
+}
+
+.text-coupon .input-coupon {
+    outline: none;
+    padding: 0 1rem;
+    width: 300px;
+    height: 50px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    color: #9A9AB0;
+    letter-spacing: 0.112px;
+    border: none;
+    border-radius: 8px;
+}
+
+.text-coupon .btn-coupon {
+    display: inline-flex;
+    width: 100px;
+    height: 38px;
+    padding: 14px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+
+    border-radius: var(--Field, 8px);
+    border: none;
+    background: var(--complementary-color-gradient-1, linear-gradient(270deg, #BFC831 1.04%, #A4BC46 100%));
+
+}
+
+.btn-coupon .subscribe {
+    color: var(--light-text-link-color-white, #FFF);
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    color: #FFFFFF;
+    letter-spacing: 0.08px;
+    text-decoration: none;
+    margin-bottom: 8px;
+}
+
+.cart-totals {
+    width: 400px;
+    height: 300px;
+    /* border-radius: 8px; */
+}
+
+.cart-totals .carts-total {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    color: #11142D;
+    letter-spacing: 0.12px;
+    text-decoration: none;
+    margin-bottom: 2rem;
+}
+
+.cart-totals .text-cart-totals {
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+}
+
+.subtotal-sub,
+.shipping-sub,
+.total-sub {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    color: #000000;
+    letter-spacing: 0.08px;
+}
+
+.sub-cart,
+.shipping-cart,
+.addres-cart,
+.total-cart {
+    display: flex;
+    gap: 6rem;
+}
+
+.price-subtotal,
+.full-sub {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    color: #11142D;
+    letter-spacing: 0.08px;
+    position: absolute;
+    right: 365px;
+}
+
+.option-sub {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    color: #11142D;
+    letter-spacing: 0.08px;
+    position: absolute;
+    right: 308px;
+}
+
+.address-sub {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    color: #11142D;
+    letter-spacing: 0.08px;
+}
+
+.change-sub {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 120%;
+    color: #A4BC46;
+    letter-spacing: 0.08px;
+    cursor: pointer;
+}
+
+.addres-cart {
+    position: relative;
+    left: 97px;
+}
+
+.btn-subtotal {
+    margin-top: 2rem;
+    display: flex;
+    width: 400px;
+    height: 46px;
+    padding: 18px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border: none;
+    cursor: pointer;
+    border-radius: var(--Field, 8px);
+    background: var(--complementary-color-gradient-1, linear-gradient(270deg, #BFC831 1.04%, #A4BC46 100%));
+}
+
+.name-btn-subtotal {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    letter-spacing: 0.08px;
+    margin-bottom: 8px;
+}
